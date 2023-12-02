@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37C851DF2B1A5295007A912E /* AllStatsRangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C851DE2B1A5295007A912E /* AllStatsRangeView.swift */; };
+		37CA39282B120DEF00852A5D /* GlomphApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CA39272B120DEF00852A5D /* GlomphApp.swift */; };
+		37CA392A2B120DEF00852A5D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CA39292B120DEF00852A5D /* ContentView.swift */; };
+		37CA392C2B120DF000852A5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37CA392B2B120DF000852A5D /* Assets.xcassets */; };
+		37CA392F2B120DF000852A5D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37CA392E2B120DF000852A5D /* Preview Assets.xcassets */; };
+		37CA393C2B122A1E00852A5D /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CA393B2B122A1E00852A5D /* Player.swift */; };
+		37CA393E2B122B7B00852A5D /* PlayerSearchResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CA393D2B122B7B00852A5D /* PlayerSearchResultView.swift */; };
+		37CA39402B12347200852A5D /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CA393F2B12347200852A5D /* ModelData.swift */; };
+		37CA39422B123A0100852A5D /* PlayersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CA39412B123A0100852A5D /* PlayersListView.swift */; };
+		37CA39442B127EEA00852A5D /* playerdatasmall.json in Resources */ = {isa = PBXBuildFile; fileRef = 37CA39432B127EEA00852A5D /* playerdatasmall.json */; };
+		37CA39482B1287FA00852A5D /* playerdata.json in Resources */ = {isa = PBXBuildFile; fileRef = 37CA39472B1287FA00852A5D /* playerdata.json */; };
+		37CA394E2B12FA6F00852A5D /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CA394D2B12FA6F00852A5D /* Game.swift */; };
+		37CA39502B1304A300852A5D /* GuessesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CA394F2B1304A300852A5D /* GuessesListView.swift */; };
+		37CA39522B13140C00852A5D /* ComparisonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CA39512B13140C00852A5D /* ComparisonView.swift */; };
+		37CA39542B13162C00852A5D /* StatRangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CA39532B13162C00852A5D /* StatRangeView.swift */; };
+		37CA39562B132D4900852A5D /* PlayerGuessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CA39552B132D4900852A5D /* PlayerGuessView.swift */; };
+		37CA39582B132E8C00852A5D /* StatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CA39572B132E8C00852A5D /* StatView.swift */; };
+		37CA395C2B1343FA00852A5D /* ResetButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CA395B2B1343FA00852A5D /* ResetButtonView.swift */; };
+		37CA395E2B13487700852A5D /* GuessTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CA395D2B13487700852A5D /* GuessTabView.swift */; };
+		37CA39602B1367A800852A5D /* skilledplayerdata.json in Resources */ = {isa = PBXBuildFile; fileRef = 37CA395F2B1367A800852A5D /* skilledplayerdata.json */; };
+		37CA39642B136B8500852A5D /* OverallStatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CA39632B136B8500852A5D /* OverallStatView.swift */; };
+		37CA39662B13725200852A5D /* richplayerdata.json in Resources */ = {isa = PBXBuildFile; fileRef = 37CA39652B13725200852A5D /* richplayerdata.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		37C851DE2B1A5295007A912E /* AllStatsRangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllStatsRangeView.swift; sourceTree = "<group>"; };
+		37CA39242B120DEF00852A5D /* Glomph.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Glomph.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37CA39272B120DEF00852A5D /* GlomphApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlomphApp.swift; sourceTree = "<group>"; };
+		37CA39292B120DEF00852A5D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		37CA392B2B120DF000852A5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37CA392E2B120DF000852A5D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		37CA393B2B122A1E00852A5D /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		37CA393D2B122B7B00852A5D /* PlayerSearchResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerSearchResultView.swift; sourceTree = "<group>"; };
+		37CA393F2B12347200852A5D /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		37CA39412B123A0100852A5D /* PlayersListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersListView.swift; sourceTree = "<group>"; };
+		37CA39432B127EEA00852A5D /* playerdatasmall.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = playerdatasmall.json; sourceTree = "<group>"; };
+		37CA39472B1287FA00852A5D /* playerdata.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = playerdata.json; sourceTree = "<group>"; };
+		37CA394D2B12FA6F00852A5D /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		37CA394F2B1304A300852A5D /* GuessesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessesListView.swift; sourceTree = "<group>"; };
+		37CA39512B13140C00852A5D /* ComparisonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComparisonView.swift; sourceTree = "<group>"; };
+		37CA39532B13162C00852A5D /* StatRangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatRangeView.swift; sourceTree = "<group>"; };
+		37CA39552B132D4900852A5D /* PlayerGuessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerGuessView.swift; sourceTree = "<group>"; };
+		37CA39572B132E8C00852A5D /* StatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatView.swift; sourceTree = "<group>"; };
+		37CA395B2B1343FA00852A5D /* ResetButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetButtonView.swift; sourceTree = "<group>"; };
+		37CA395D2B13487700852A5D /* GuessTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTabView.swift; sourceTree = "<group>"; };
+		37CA395F2B1367A800852A5D /* skilledplayerdata.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = skilledplayerdata.json; sourceTree = "<group>"; };
+		37CA39632B136B8500852A5D /* OverallStatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverallStatView.swift; sourceTree = "<group>"; };
+		37CA39652B13725200852A5D /* richplayerdata.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = richplayerdata.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37CA39212B120DEF00852A5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37CA391B2B120DEF00852A5D = {
+			isa = PBXGroup;
+			children = (
+				37CA39262B120DEF00852A5D /* Glomph */,
+				37CA39252B120DEF00852A5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37CA39252B120DEF00852A5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37CA39242B120DEF00852A5D /* Glomph.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37CA39262B120DEF00852A5D /* Glomph */ = {
+			isa = PBXGroup;
+			children = (
+				37CA39512B13140C00852A5D /* ComparisonView.swift */,
+				37CA393A2B1229CF00852A5D /* Model */,
+				37CA39352B12281C00852A5D /* Data */,
+				37CA39272B120DEF00852A5D /* GlomphApp.swift */,
+				37CA39292B120DEF00852A5D /* ContentView.swift */,
+				37CA392B2B120DF000852A5D /* Assets.xcassets */,
+				37CA392D2B120DF000852A5D /* Preview Content */,
+				37CA393D2B122B7B00852A5D /* PlayerSearchResultView.swift */,
+				37CA39412B123A0100852A5D /* PlayersListView.swift */,
+				37CA394F2B1304A300852A5D /* GuessesListView.swift */,
+				37CA39532B13162C00852A5D /* StatRangeView.swift */,
+				37CA39552B132D4900852A5D /* PlayerGuessView.swift */,
+				37CA39572B132E8C00852A5D /* StatView.swift */,
+				37CA395B2B1343FA00852A5D /* ResetButtonView.swift */,
+				37CA395D2B13487700852A5D /* GuessTabView.swift */,
+				37CA39632B136B8500852A5D /* OverallStatView.swift */,
+				37C851DE2B1A5295007A912E /* AllStatsRangeView.swift */,
+			);
+			path = Glomph;
+			sourceTree = "<group>";
+		};
+		37CA392D2B120DF000852A5D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				37CA392E2B120DF000852A5D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		37CA39352B12281C00852A5D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				37CA39652B13725200852A5D /* richplayerdata.json */,
+				37CA395F2B1367A800852A5D /* skilledplayerdata.json */,
+				37CA39472B1287FA00852A5D /* playerdata.json */,
+				37CA39432B127EEA00852A5D /* playerdatasmall.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		37CA393A2B1229CF00852A5D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				37CA393B2B122A1E00852A5D /* Player.swift */,
+				37CA393F2B12347200852A5D /* ModelData.swift */,
+				37CA394D2B12FA6F00852A5D /* Game.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37CA39232B120DEF00852A5D /* Glomph */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37CA39322B120DF000852A5D /* Build configuration list for PBXNativeTarget "Glomph" */;
+			buildPhases = (
+				37CA39202B120DEF00852A5D /* Sources */,
+				37CA39212B120DEF00852A5D /* Frameworks */,
+				37CA39222B120DEF00852A5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Glomph;
+			productName = Glomph;
+			productReference = 37CA39242B120DEF00852A5D /* Glomph.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37CA391C2B120DEF00852A5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					37CA39232B120DEF00852A5D = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 37CA391F2B120DEF00852A5D /* Build configuration list for PBXProject "Glomph" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37CA391B2B120DEF00852A5D;
+			productRefGroup = 37CA39252B120DEF00852A5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37CA39232B120DEF00852A5D /* Glomph */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37CA39222B120DEF00852A5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37CA39662B13725200852A5D /* richplayerdata.json in Resources */,
+				37CA39442B127EEA00852A5D /* playerdatasmall.json in Resources */,
+				37CA392F2B120DF000852A5D /* Preview Assets.xcassets in Resources */,
+				37CA39482B1287FA00852A5D /* playerdata.json in Resources */,
+				37CA392C2B120DF000852A5D /* Assets.xcassets in Resources */,
+				37CA39602B1367A800852A5D /* skilledplayerdata.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37CA39202B120DEF00852A5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37CA395C2B1343FA00852A5D /* ResetButtonView.swift in Sources */,
+				37CA39642B136B8500852A5D /* OverallStatView.swift in Sources */,
+				37C851DF2B1A5295007A912E /* AllStatsRangeView.swift in Sources */,
+				37CA39582B132E8C00852A5D /* StatView.swift in Sources */,
+				37CA393E2B122B7B00852A5D /* PlayerSearchResultView.swift in Sources */,
+				37CA39562B132D4900852A5D /* PlayerGuessView.swift in Sources */,
+				37CA392A2B120DEF00852A5D /* ContentView.swift in Sources */,
+				37CA394E2B12FA6F00852A5D /* Game.swift in Sources */,
+				37CA39402B12347200852A5D /* ModelData.swift in Sources */,
+				37CA39522B13140C00852A5D /* ComparisonView.swift in Sources */,
+				37CA39422B123A0100852A5D /* PlayersListView.swift in Sources */,
+				37CA393C2B122A1E00852A5D /* Player.swift in Sources */,
+				37CA39502B1304A300852A5D /* GuessesListView.swift in Sources */,
+				37CA39542B13162C00852A5D /* StatRangeView.swift in Sources */,
+				37CA395E2B13487700852A5D /* GuessTabView.swift in Sources */,
+				37CA39282B120DEF00852A5D /* GlomphApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		37CA39302B120DF000852A5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		37CA39312B120DF000852A5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37CA39332B120DF000852A5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Glomph/Preview Content\"";
+				DEVELOPMENT_TEAM = M6RJ24SPX4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = helmin.Glomph;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37CA39342B120DF000852A5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Glomph/Preview Content\"";
+				DEVELOPMENT_TEAM = M6RJ24SPX4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = helmin.Glomph;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37CA391F2B120DEF00852A5D /* Build configuration list for PBXProject "Glomph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37CA39302B120DF000852A5D /* Debug */,
+				37CA39312B120DF000852A5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37CA39322B120DF000852A5D /* Build configuration list for PBXNativeTarget "Glomph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37CA39332B120DF000852A5D /* Debug */,
+				37CA39342B120DF000852A5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37CA391C2B120DEF00852A5D /* Project object */;
+}
